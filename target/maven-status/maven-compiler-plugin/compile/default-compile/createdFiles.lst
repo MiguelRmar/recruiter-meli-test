@@ -1,0 +1,9 @@
+com/meli/recruiter/dto/statsDTO.class
+com/meli/recruiter/controller/DnaController.class
+com/meli/recruiter/dto/dnaDTO.class
+com/meli/recruiter/domain/Dna.class
+com/meli/recruiter/service/IDnaService.class
+com/meli/recruiter/repository/IDnaRepository.class
+com/meli/recruiter/RecruiterApplication.class
+com/meli/recruiter/service/DnaService.class
+com/meli/recruiter/domain/Dna$DnaBuilder.class
