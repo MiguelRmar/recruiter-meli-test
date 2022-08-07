@@ -80,12 +80,16 @@ public class DnaServiceTest {
     public void whenStatsToVerifications() {
         Integer humans = 100;
         Integer mutants = 40;
+        
         Mockito.when(dnaRepository.humans()).thenReturn(humans);
         Mockito.when(dnaRepository.mutants()).thenReturn(mutants);
+        
         Float ratio = Float.valueOf(mutants)/Float.valueOf(humans);
-
         statsDTO stats = new statsDTO(mutants,humans,ratio);
+        Boolean equals = stats.count_human_dna.equals(dnaService.getStats().count_human_dna) 
+            && stats.count_mutant_dna.equals(dnaService.getStats().count_mutant_dna)
+            && stats.ratio.equals(dnaService.getStats().ratio);
 
-        assertEquals(stats, dnaService.getStats());
+        assertEquals(true , equals);
     }
 }
