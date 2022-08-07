@@ -26,5 +26,5 @@ La dirección de la base de datos es:
 ### `magneto-dnas.cewr9tyllzpo.us-east-1.rds.amazonaws.com`
 
 
-### `Pruebas de cobertura en el servicio`#
+### `Pruebas de cobertura en el servicio`
 <img width="721" alt="image" src="https://user-images.githubusercontent.com/17624399/183311306-04ae6d8d-09ea-40fe-9566-85487641a85e.png">
